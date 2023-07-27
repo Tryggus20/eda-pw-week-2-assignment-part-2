@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We make a variable called 'name' and set it to 'Dane"
+// We check if 'name' is 'Mary'. Since it is not, we console.log 'How do you do?'
 // 
 //
 
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called 'secret' and do not give it a value yet
+// We make a variable called 'code' and give it a value of '123'
+// since the value for 'code' is '123', the variable 'secret' gets a value of 'super'
+// also, since '123' was the value for 'code', it gets multiplied by 2 and is now "246"
+// since 246 is < 250, the value for 'secret' does not change so the console.log will read 'super' 
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We start with 'isStudent' set to 'true' and an 'age' value of '34' with a 'zip' value of 55407
+// We check if the person is a student AND has a zip greater than 80000. Since that is not the case, we move on.
+// We check if the person is not a student, or if the age is less than 30. Since the person is both a student, and over 30 we move on.
+// We then check if the person is a student. Since that value is 'true' we console.log 'Welcome to Prime!'
+// Since we fulfilled the paramaters for the above we would ignore the remaining code.
 
 //CODE
 /*
@@ -129,6 +131,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX - colorOne is set to 'red' and colorTwo is set to 'blue'. They are flipped
+// only colorOne gets changed to purple. would need to add colorTwo = 'purple'; 
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -143,6 +148,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// FIX - instead of using || which means and/or you would want to use && so both conditions need to be met to get the console.log of 'throw away the food'
+// also I believe time should not be a constant and should be a 
 /*
 let temp = 40;
 const time = 4;
