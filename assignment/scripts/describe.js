@@ -149,7 +149,7 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 // FIX - instead of using || which means and/or you would want to use && so both conditions need to be met to get the console.log of 'throw away the food'
-// also I believe time should not be a constant and should be a 
+// also I believe time should not be a constant and 'let time = 4;' should have been used instead
 /*
 let temp = 40;
 const time = 4;
@@ -166,6 +166,10 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - This code checking if the age is greater than or equal to minAge, and if so we are getting a console.log of 'no entry'
+// which is the exact opposite of what was intended. The code should be changed to:
+// if(age < minAge){   and that would fix the issue.
 
 if(minAge <= age) {
   console.log('no entry');
